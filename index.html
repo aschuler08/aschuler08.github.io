@@ -1,46 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ashley's First Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-        :root{color-scheme:light dark}
-        body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#fff;color:#111}
-        .wrap{max-width:900px;margin:0 auto;padding:2rem}
-        header,footer{padding:1rem 0}
-        nav a{margin-right:1rem;color:#0366d6;text-decoration:none}
-        pre,code{background:#f3f4f6;padding:.2rem .4rem;border-radius:4px}
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The North Texas Garden Guide</title>
+    <link href="garden.css" rel="stylesheet">
+    
 </head>
 <body>
-    Hello, world! I am Ashley Schuler. I am learning how to create websites.
-    <div class="wrap">
-        <header>
-            <h1>Welcome to My First Website</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
+    <header>
+        <h1> The North Texas Garden Guide</h1>
+        <img src="garden logo.png" height= 200 alt="Garden logo">
+    </header>
+    <div class="navbar">
+  <a class="active" href="#">Home</a>
+  <a href="#">Agricultural Zones</a>
+  <a href="#">Plants</a>
+  <a href="#">Tools</a>
+  <a href="#">Planting Schedule</a>
+</div>
 
-        <main>
-            <p>Hello! This is a starter page. Edit <code>index.html</code> to begin.</p>
-            <section>
-                <h2>Getting started</h2>
-                <ol>
-                    <li>Open this file in a text editor.</li>
-                    <li>Make changes and save.</li>
-                    <li>Refresh the browser to see updates.</li>
-                </ol>
-            </section>
-        </main>
+<div class="row">
+  <div class="column">
+    <img src="dandelion_tea-gardener-7089417_1280.png" alt="gardeners" style="width:100%" height="100%">
+  </div>
+  <div class="column">
+    <img src="ylanite_nietjuhart-garden-tools-8383397_1280.jpg" alt="garden bench" style="width:100%" height="100%">
+  </div>
+  <div class="column">
+    <img src="tanrica-planting-plants-10088857_1280.png" alt="woman gardening" style="width:100%" height="100%">
+  </div>
+</div>
 
-        <footer>
-            <p>&copy; 2026 Your Name</p>
-        </footer>
-    </div>
+<main>
+    <section>
+    <h2>Welcome!</h2>
+    <div class="flow">
+    <p>Welcome to the site! Thanks for stopping by. Take a look around.
+         We hope you find helpful information to jumpstart your gardening journey.</p>
+    </section>
+
+    <section>
+        <h3>About Us</h3>
+        <p>We are local gardening enthusiasts seeking to help our fellow gardeners who may be new to North Texas gardening.
+            
+        </p>
+    </section>
+
+    </div>   
+</main>
+
+ 
+<footer>
+Contact us <em><a href="ashley@schuler.com">ashley@schuler.com</a></em>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+    
+</footer>
 </body>
 </html>
