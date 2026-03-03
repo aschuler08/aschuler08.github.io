@@ -1,34 +1,40 @@
 body { 
     background-color: #926b46; 
-    body, html {
     height: 100%;
 }
 
-/* The hero image */
+html {
+    height: 100%;
+}
+
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("texas\ ag\ zone.jpg");
 
-  /* Set a specific height */
+  
   height: 50%;
 
-  /* Position and center the image to scale nicely on all screens */
+ 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-}
-header {background-color: #233d0f;
+header {
+  background-color: #233d0f;
   padding: 20px;
   text-align: center;
   color: #f2eeea;
   font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  img {
-  border-radius: 50%
 }
+
+header img {
+  border-radius: 50%;
 }
+
+
 .navbar {
   width: 100%;
   background-color: #85a874;
@@ -76,7 +82,8 @@ h2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida
 section {
     margin-left: 2em; 
     margin-right: 2em;
-    flex:1}
+    flex: 1;
+}
  .flow {
     display: flex;
     flex-direction: row;}
@@ -108,7 +115,7 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
   text-decoration: none;
   border-radius: 50%;
 }
-/* General Section Styling */
+
 .infographic-section {
 
   text-align: center;
@@ -121,7 +128,7 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
   color: #233d0f;
 }
 
-/* Grid Layout */
+
 .infographic-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -129,14 +136,14 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
  
   margin: auto;
 }
-/* Desktop Layout */
+
 @media (min-width: 800px) {
   .infographic-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Card Styling */
+
 .infographic-card {
   
   border-radius: 16px;
@@ -163,21 +170,21 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
 
 
 
-/* Title */
+
 .benefits-box h2 {
   margin-top: 0;
   color: #000000;
   font-size: 45px;
 }
 
-/* Intro Text */
+
 .intro {
   color: #000000;
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-/* List */
+
 .benefits-list {
   list-style: none;
   padding: 0;
@@ -191,7 +198,7 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
   line-height: 1.5;
 }
 
-/* Highlight Text */
+
 .highlight {
   margin-top: 20px;
   font-weight: bold;
@@ -199,6 +206,67 @@ footer {  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', '
   font-size: 15px;
 }
 
+input[type=text], input[type=submit] {
+  
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
 
+input[type=checkbox] {
+  margin-top: 16px;
+}
 
+
+input[type=submit] {
+  background-color: #926b46;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;}
+  .column {
+  float: left;
+  width: 50%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column.column-left {
+  float: left;
+  width: 50%;
+}
+
+.column.column-right {
+  float: right;
+  width: 50%;
+}
+.tools-intro {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+   max-width: 700px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-left: 6px solid #588157;
+  transition: transform 0.3s ease;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
